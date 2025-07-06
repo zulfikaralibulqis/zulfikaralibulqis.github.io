@@ -4,38 +4,64 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zulfikar Ali Bulqis - Portofolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      background-color: #ffffff;
+      color: #1a1a1a;
     }
     header {
-      background-color: #001f3f;
-      color: #fff;
-      padding: 2rem;
+      background-color: #002B5B;
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
     }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
     section {
-      padding: 2rem;
-      max-width: 900px;
+      padding: 2rem 1rem;
+      max-width: 1000px;
       margin: auto;
     }
     h2 {
-      border-bottom: 2px solid #001f3f;
-      padding-bottom: 0.5rem;
-      color: #001f3f;
+      color: #002B5B;
+      border-left: 5px solid #002B5B;
+      padding-left: 0.5rem;
+      margin-top: 3rem;
     }
     .card {
-      background: white;
-      padding: 1rem;
+      background: #f9f9f9;
+      padding: 1rem 1.5rem;
       margin-top: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    ul {
+      padding-left: 1.5rem;
     }
     a {
-      color: #0074D9;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 4rem;
+      padding-bottom: 2rem;
     }
   </style>
 </head>
@@ -49,24 +75,32 @@
   <section>
     <h2>Tentang Saya</h2>
     <div class="card">
-      <p>Lulusan S1 Ilmu Komputer dari Universitas Persada Indonesia YAI. Memiliki pengalaman di bidang jaringan, IT support, serta dokumentasi teknis. Pernah mengerjakan proyek SD-WAN Cisco untuk BCA dan mengikuti berbagai pelatihan IT, cybersecurity, dan customer service.</p>
+      <p>Saya adalah lulusan Ilmu Komputer dari Universitas Persada Indonesia YAI. Memiliki pengalaman dalam bidang jaringan, support teknis, dan dokumentasi. Saya tertarik pada dunia keamanan siber dan terus mengembangkan kemampuan melalui pelatihan dan praktik langsung.</p>
     </div>
 
     <h2>Pengalaman Kerja</h2>
     <div class="card">
-      <h3>Network Engineer – PT. Graha Karya Informasi (Feb 2025 – Mei 2025)</h3>
-      <p>Konfigurasi perangkat jaringan dan dokumentasi teknis untuk proyek SD-WAN Cisco fase 1 di PT. Bank Central Asia Tbk (Jawa).</p>
+      <h3>Network Engineer – PT. Graha Karya Informasi (Feb–Mei 2025)</h3>
+      <p>Mengerjakan proyek SD-WAN Cisco fase 1 untuk PT. Bank Central Asia Tbk di Pulau Jawa: konfigurasi perangkat jaringan dan dokumentasi teknis.</p>
     </div>
     <div class="card">
-      <h3>Administrative Staff – Dewan Perwakilan Rakyat Republik Indonesia (2016 – 2024)</h3>
-      <p>Mendukung kegiatan administratif dan dokumentasi teknis.</p>
+      <h3>Administrative Staff – Dewan Perwakilan Rakyat Republik Indonesia (2016–2024)</h3>
+      <p>Mengerjakan tugas administratif dan dokumentasi kegiatan kelembagaan.</p>
     </div>
     <div class="card">
       <h3>Technician – Garena Indonesia (2015)</h3>
     </div>
     <div class="card">
-      <h3>Front Desk Officer – PT. Sentral Total Dinamika (2011 – 2012)</h3>
-      <p>Perusahaan outsource untuk Hewlett-Packard Service Center.</p>
+      <h3>Front Desk Officer – PT. Sentral Total Dinamika (2011–2012)</h3>
+      <p>PT. Sentral Total Dinamika adalah perusahaan outsource untuk Hewlett-Packard Service Center.</p>
+    </div>
+
+    <h2>Proyek</h2>
+    <div class="card">
+      <ul>
+        <li><strong>SD-WAN Cisco BCA:</strong> Konfigurasi perangkat router dan switch, dokumentasi teknis, support on-site di beberapa cabang Jawa.</li>
+        <li><strong>Learning Path Jr. Penetration Tester:</strong> Lab uji coba ethical hacking, konfigurasi Wi-Fi lab, dan penggunaan tools keamanan jaringan.</li>
+      </ul>
     </div>
 
     <h2>Sertifikasi & Pelatihan</h2>
@@ -74,13 +108,18 @@
       <ul>
         <li>Technical Writing (2025)</li>
         <li>Introduction to Information Security (2025)</li>
-        <li>Cisco CCNA Lab Training – Netcampus (2014)</li>
-        <li>Pelatihan Customer Care – HP Indonesia</li>
+        <li>Cisco CCNA Lab – Netcampus (2014)</li>
+        <li>Customer Care – Hewlett-Packard Indonesia</li>
         <li>Project Management – Microsoft</li>
-        <li>Data Analysis dengan Excel – Microsoft</li>
+        <li>Data Analysis with Excel – Microsoft</li>
         <li>Conversation in English – LIA</li>
-        <li>Micro Skills Cybersecurity – Kominfo</li>
+        <li>Pelatihan Mikro Kominfo: Keamanan Data, AI, Cybersecurity</li>
       </ul>
+    </div>
+
+    <h2>Resume</h2>
+    <div class="card">
+      <p>Unduh resume saya dalam format PDF: <a href="resume.pdf" download>Download Resume</a></p>
     </div>
 
     <h2>Kontak</h2>
@@ -90,6 +129,10 @@
       <p>LinkedIn: <a href="https://www.linkedin.com/in/zulfikar-ali-bulqis-a3024b216/" target="_blank">Profil LinkedIn</a></p>
     </div>
   </section>
+
+  <footer>
+    &copy; 2025 Zulfikar Ali Bulqis
+  </footer>
 
 </body>
 </html>
