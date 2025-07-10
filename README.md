@@ -1,1 +1,0 @@
-# zulfikaralibulqis.github.io
